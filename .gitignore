@@ -1,0 +1,20 @@
+# Local Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Crash log
+crash.log
+
+# Sensitive variable definitions
+terraform.tfvars
+*.tfvars
+
+# Terraform plan output
+*.tfplan
+
+# Local .terraform directory (plugin binaries, provider cache, etc.)
+.terraform/
+
+# Lock file (optional — keep if you want deterministic provider versions)
+.terraform.lock.hcl
+
