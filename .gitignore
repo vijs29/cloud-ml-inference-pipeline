@@ -1,9 +1,25 @@
-echo ".terraform/" >> .gitignore
-echo "*.tfstate*" >> .gitignore
-echo "terraform.tfvars" >> .gitignore
-echo "__pycache__/" >> .gitignore
-echo "*.zip" >> .gitignore
-echo "*.log" >> .gitignore
+# Local Terraform state
+*.tfstate
+*.tfstate.backup
 
-git add .
-git commit -m "Initial commit: AWS serverless ingestion pipeline"
+# Crash log
+crash.log
+
+# Sensitive variable definitions
+terraform.tfvars
+*.tfvars
+
+# Terraform plan output
+*.tfplan
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Python and packaging artifacts
+__pycache__/
+*.zip
+
+# Logs
+*.log
+
