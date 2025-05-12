@@ -1,0 +1,25 @@
+# Local Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Crash log
+crash.log
+
+# Sensitive variable definitions
+terraform.tfvars
+*.tfvars
+
+# Terraform plan output
+*.tfplan
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Python and packaging artifacts
+__pycache__/
+*.zip
+
+# Logs
+*.log
+
