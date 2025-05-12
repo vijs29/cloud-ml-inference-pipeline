@@ -12,9 +12,14 @@ terraform.tfvars
 # Terraform plan output
 *.tfplan
 
-# Local .terraform directory (plugin binaries, provider cache, etc.)
+# Terraform working directory
 .terraform/
-
-# Lock file (optional — keep if you want deterministic provider versions)
 .terraform.lock.hcl
+
+# Python and packaging artifacts
+__pycache__/
+*.zip
+
+# Logs
+*.log
 
