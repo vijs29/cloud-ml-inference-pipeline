@@ -1,0 +1,9 @@
+echo ".terraform/" >> .gitignore
+echo "*.tfstate*" >> .gitignore
+echo "terraform.tfvars" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.zip" >> .gitignore
+echo "*.log" >> .gitignore
+
+git add .
+git commit -m "Initial commit: AWS serverless ingestion pipeline"
